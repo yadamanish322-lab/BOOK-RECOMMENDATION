@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+  <book id="b1"><title>The Alchemist</title><author>Paulo Coelho</author><genre>Fiction</genre><description>A shepherd follows a dream in search of purpose.</description></book>
+  <book id="b2"><title>A Wizard of Earthsea</title><author>Ursula K. Le Guin</author><genre>Fantasy</genre><description>A young mage learns the cost and balance of power.</description></book>
+  <book id="b3"><title>Cosmos</title><author>Carl Sagan</author><genre>Science</genre><description>An accessible journey through the universe and our place in it.</description></book>
+  <book id="b4"><title>Atomic Habits</title><author>James Clear</author><genre>Personal Growth</genre><description>Practical strategies for building small, lasting habits.</description></book>
+  <book id="b5"><title>The Left Hand of Darkness</title><author>Ursula K. Le Guin</author><genre>Science</genre><description>A journey across an icy world explores culture and identity.</description></book>
+  <book id="b6"><title>Pride and Prejudice</title><author>Jane Austen</author><genre>Fiction</genre><description>A witty novel about first impressions, family, and love.</description></book>
+  <book id="b7"><title>The Hobbit</title><author>J.R.R. Tolkien</author><genre>Fantasy</genre><description>Bilbo Baggins joins a quest to reclaim a dwarven homeland.</description></book>
+  <book id="b8"><title>A Brief History of Time</title><author>Stephen Hawking</author><genre>Science</genre><description>An introduction to the origin and nature of the universe.</description></book>
+  <book id="b9"><title>Deep Work</title><author>Cal Newport</author><genre>Personal Growth</genre><description>A guide to focused work and producing meaningful results.</description></book>
+  <book id="b10"><title>The Book Thief</title><author>Markus Zusak</author><genre>Fiction</genre><description>A young girl's life is changed by books during wartime.</description></book>
+  <book id="b11"><title>The Martian</title><author>Andy Weir</author><genre>Science</genre><description>An astronaut uses ingenuity to survive alone on Mars.</description></book>
+  <book id="b12"><title>The Name of the Wind</title><author>Patrick Rothfuss</author><genre>Fantasy</genre><description>A gifted young man recounts the story of his life.</description></book>
+  <book id="b13"><title>The Power of Habit</title><author>Charles Duhigg</author><genre>Personal Growth</genre><description>Stories and research explain how habits form and change.</description></book>
+</books>

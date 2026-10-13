@@ -1,0 +1,53 @@
+:root {
+  color-scheme: light;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  color: #243047;
+  background: #f5f3ee;
+  font-synthesis: none;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, select, textarea { font: inherit; }
+a { color: #176653; }
+button, .button-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 2.8rem;
+  padding: .65rem 1rem;
+  border: 0;
+  border-radius: .55rem;
+  background: #b75b36;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:disabled { opacity: .6; cursor: wait; }
+input, select, textarea {
+  width: 100%;
+  min-height: 2.8rem;
+  padding: .65rem .8rem;
+  border: 1px solid #bfc7c1;
+  border-radius: .5rem;
+  background: #fff;
+  color: #243047;
+}
+label { display: grid; gap: .35rem; font-weight: 600; }
+:focus-visible { outline: 3px solid #e7a93b; outline-offset: 2px; }
+.page-shell { width: min(72rem, 100% - 2rem); margin-inline: auto; }
+.panel { padding: clamp(1.1rem, 3vw, 2rem); border: 1px solid #e2dfd7; border-radius: 1rem; background: #fff; }
+.eyebrow { color: #9a4e31; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.muted { color: #65716d; }
+.status { min-height: 1.5rem; }
+.error { color: #a32e20; }
+.success { color: #176653; }
+h1, h2, h3 { font-family: "Playfair Display", Georgia, serif; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.55rem, 3.5vw, 2.25rem); }
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
